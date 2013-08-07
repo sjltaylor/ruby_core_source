@@ -57,7 +57,7 @@ def create_makefile_with_core(hdrs, name)
   #
   # Download the headers
   #
-  uri_path = "http://ftp.ruby-lang.org/pub/ruby/1.9/" + ruby_dir + ".tar.gz"
+  uri_path = "http://ftp.ruby-lang.org/pub/ruby/2.0/" + ruby_dir + ".tar.gz"
   Tempfile.open("ruby-src") { |temp|
 
     temp.binmode
